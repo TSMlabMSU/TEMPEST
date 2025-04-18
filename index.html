@@ -98,7 +98,7 @@
     <div class="container">
         <!-- Login Form -->
         <div id="login-container">
-            <h1>Password Protected Markdown Site</h1>
+            <h1>TEMPEST site</h1>
             <p>Please enter the password to view this content:</p>
             <input type="password" id="password" placeholder="Enter password">
             <div>
@@ -112,9 +112,9 @@
             <nav>
                 <ul id="navigation">
                     <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
-                    <li><a href="#" class="nav-link" data-page="about">About</a></li>
+                    <!-- <li><a href="#" class="nav-link" data-page="about">About</a></li>
                     <li><a href="#" class="nav-link" data-page="projects">Projects</a></li>
-                    <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+                    <li><a href="#" class="nav-link" data-page="contact">Contact</a></li> -->
                 </ul>
             </nav>
             
@@ -161,8 +161,7 @@
             
             // The correct password hash - this is the SHA-256 hash of "turbulence"
             // Change this to your own password hash
-            const correctHash = '3f6e1f99bdb72349a38b5d92af7b8e5276be3c3c02826c5a028aedb9ceec03b7';
-                        
+            const correctHash = 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3';
             if (hashedInput === correctHash) {
                 // Store authentication status in session storage
                 sessionStorage.setItem('authenticated', 'true');
