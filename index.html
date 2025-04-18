@@ -159,10 +159,10 @@
             // Hash the input password
             const hashedInput = await hashString(passwordInput);
             
-            // The correct password hash - this is the SHA-256 hash of "password"
+            // The correct password hash - this is the SHA-256 hash of "turbulence"
             // Change this to your own password hash
-            const correctHash = 'd7b305cc71b847f19def94a9ed4bdfc1c720ef4cdd6e0a7cad8b73f5b5e6f7d9';
-            
+            const correctHash = '3f6e1f99bdb72349a38b5d92af7b8e5276be3c3c02826c5a028aedb9ceec03b7';
+                        
             if (hashedInput === correctHash) {
                 // Store authentication status in session storage
                 sessionStorage.setItem('authenticated', 'true');
